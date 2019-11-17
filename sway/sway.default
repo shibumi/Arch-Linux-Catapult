@@ -1,0 +1,17 @@
+[Distribution]
+Distribution=arch
+
+[Output]
+Format=raw_gpt
+Bootable=yes
+Hostname=archlinux
+Output=sway.img
+
+[Packages]
+Packages=
+	sway
+	xorg-server-xwayland
+	swaylock
+
+[Validation]
+Password=root

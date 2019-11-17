@@ -1,0 +1,15 @@
+[Distribution]
+Distribution=arch
+
+[Output]
+Format=raw_gpt
+Bootable=yes
+Hostname=archlinux
+Output=gnome.img
+
+[Packages]
+Packages=
+	gnome
+
+[Validation]
+Password=root
