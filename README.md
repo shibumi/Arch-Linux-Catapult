@@ -56,7 +56,7 @@ Also, there is no support for Raids.
 
 ## Why are you doing this?
 
-I want to make Arch Linux less elitist with this approach, more people should be able to use it, if they want to do it.
+I want to make Arch Linux more inclusive, more people should be able to use it, if they want to do it.
 Nobody should be forced to read 2 hours of the Arch Wiki before installing Linux on their machine.
 
 (I don't say I don't like the ArchWiki, the Wiki is awesome and I think everybody should at least try to understand what they are actually doing).
@@ -80,5 +80,4 @@ part of the partition table. (so no need for cloud-init).
 
 ## Disclaimer
 
-This project is just a proof of concept. If you feel offended because I break your elitist way to install Arch, feel free to do so.
-It's your right and your opinion, but don't bug me with your opinion.
+This project is just a proof of concept.
