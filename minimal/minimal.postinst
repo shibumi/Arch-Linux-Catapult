@@ -14,7 +14,7 @@ ConditionFirstBoot=yes
 [Service]
 Type=oneshot
 RemainAfterExit=yes
-ExecStart=/usr/bin/systemd-firstboot --prompt --setup-machine-id
+ExecStart=/usr/bin/systemd-firstboot --prompt --prompt-root-password
 StandardOutput=tty
 StandardInput=tty
 StandardError=tty
@@ -24,3 +24,17 @@ WantedBy=sysinit.target
 EOF
 
 systemctl enable systemd-firstboot.service
+# clean locale
+rm /etc/locale.conf
+# clean timezone
+rm /etc/localtime
+# clean keymap
+rm /etc/vconsole.conf
+# clean hostname
+rm /etc/hostname
+# clean user configuration
+rm /etc/shadow
+rm /etc/passwd
+# delete machine-id
+rm /etc/machine-id
+

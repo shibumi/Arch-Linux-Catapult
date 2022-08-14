@@ -2,7 +2,9 @@
 Distribution=arch
 
 [Output]
-Format=raw_gpt
+Format=gpt_ext4
 Bootable=yes
-Firstboot=yes
 Output=minimal.img
+
+[Content]
+PostInstallationScript=minimal.postinst
